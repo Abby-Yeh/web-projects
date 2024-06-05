@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.app{
+  background-image: url('./assets/default.jpg');
+  background-size: cover;
+  background-position: bottom;
+  /* background-repeat: no-repeat; */
+  transition: 0.8 ease-out;
+}
+
+.hot{
+  background-image: url('./assets/hot.jpg');
+  background-size: cover;
+  background-position: bottom;
+  /* background-repeat: no-repeat; */
+  transition: 0.8 ease-out;
+}
+
+.cold{
+  background-image: url('./assets/cold.jpg');
+  background-size: cover;
+      background-position: bottom;
+      /* background-repeat: no-repeat; */
+      transition: 0.8 ease-out;
+}
+.warm {
+  background-image: url('./assets/warm.jpg');
+  background-size: cover;
+  background-position: bottom;
+  /* background-repeat: no-repeat; */
+  transition: 0.8 ease-out;
+}
+
+main{
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1),rgba(0,0,0,0.2));
+  padding: 25px;
+}
+
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+ 
+.search-box .search-bar{
+  color: black;
+  font-size: medium;
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  border: none;
+  outline: none;
+  background: none;
+  background-color: rgba(225,225,225,0.7);
+  border-radius: 0 0 16px 16px;
+  margin-top: -25px;
+  box-shadow: 0 5px rgba(0,0,0,0.3);
+
+  transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.location-box .location{
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.location-box .date{
+  color: aliceblue;
+  text-align: center;
+  font-size: 25px;  
+  font-weight: 400;
+  text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.weather-box{
+  text-align: center;
+}
+
+.weather-box .temperature{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(195, 176, 176, 0.4);
+  border-radius: 10px;
+  padding: 15px 25px;
+
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center; 
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.6);
+
+}
+
+.weather-box .weather{
+  color: white;
+  font-size: 45px;
+  font-weight: 90;
+  text-align: center;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.6);
+
+}
